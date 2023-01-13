@@ -38,10 +38,5 @@ class DocumentViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val formattedDate = outputFormat.format(date)
         viewDocuments1.text = "${formattedDate} - ${document.TipoAdjunto}"
         viewDocuments2.text = "${document.Nombre} - ${document.Apellido}"
-
-}
-
-
-
-
+    }
 }
